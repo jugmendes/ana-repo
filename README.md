@@ -15,4 +15,4 @@ Faculdade FAI.
 
 > Aulas de lds são ministradas as 21hrs.
 
-ALTERAÇÃO DO PROJETO DA COLEGA ANA JULIA AA
+Todas as alteraçoes feitas aqui estão de acordo com a linguagem de programacao Java 
