@@ -1,26 +1,25 @@
-import java.util.Scanner;
-
 public class Main {
 
-    public static void main (String[] args){
+    public static void main(String[] args){
         Main app = new Main();
         app.start();
     }
 
     private void start() {
-        System.out.println("Digite o valor do produto: ");
 
-        Scanner scanner = new Scanner(System.in);
-        double valor = scanner.nextDouble();
-        int value = (int) valor;
+        int idade = 15;
+        System.out.println("A idade e de " + idade + " anos");
 
-        System.out.println("Valor: " + valor);
-        System.out.println("Valor com casas decimais: " + valor + " | Valor inteiro: " + value);
+        idade = (idade + 5) * 2;
+        System.out.println("Resultado 1: " + idade);
 
-        int valueNovo = 10;
-        double valorNovo = valueNovo;
-        int valueNovoNovo = (int) valorNovo;
+        idade = idade - 5;
+        System.out.println("Resultado 2: " + idade);
 
-        System.out.println("Novo: " + valueNovo + " | Convertido: " + valorNovo);
+        if (idade > 20) {
+            System.out.println("A idade e maior que 20");
+        }else{
+            System.out.println("Idade menor que 20");
+            }
+        }
     }
-}
